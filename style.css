@@ -1,0 +1,116 @@
+html, body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section{
+    height: 301px;
+    margin-left: 9%;
+    margin-top: 4%;
+    padding-bottom: 2%;
+}
+.header{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;  
+}
+.work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat; 
+
+}
+.header_half-width{
+    float: left;
+    width: 44%;
+    margin-left: 6%;
+   
+}
+.name-highlight{
+    color: #F60089;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.linkedin-profileShowButton{
+    text-decoration: none;
+    padding: 9px 22px;
+    background: #F60089;
+    color: white;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+.linkedin-profileShowButton:hover{
+        text-decoration: none;
+        padding: 9px 22px;
+        background:green;
+        color: white;
+        font-weight: 700;
+        border-radius: 8px;
+}
+
+.profile-image{
+    border-radius: 50%;
+    border: 1px solid #4c4ff9;
+}
+.downloadCV-button {
+    text-decoration: none;
+    padding: 9px 22px;
+    background:#F60089;;
+    color: white;
+    font-weight: 700;
+    border-radius: 8px;
+
+}
+
+
+.downloadCV-button:hover {
+    text-decoration: none;
+    padding: 9px 22px;
+    background:green;
+    color: white;
+    font-weight: 700;
+    border-radius: 8px;
+
+}
+
+.half-width{
+    width: 44%;
+    float: left;
+}
+.biography{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+
+.image-width{
+    width: 30%;
+    float: left;
+
+}
+
+.footer{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.footer-topText{
+    margin-bottom: 44px;
+}
+.message-section{
+    text-align: center;
+} 
+
+.middle-div{
+    width: 50%;
+    background-color: #F60089;
+    /* padding: 1%; */
+    color: white;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.ceo{
+    font-size: 10px;
+    position: relative;
+    top: -14px;
+}
